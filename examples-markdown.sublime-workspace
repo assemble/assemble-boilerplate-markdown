@@ -1,0 +1,1283 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"str",
+				"stringify"
+			],
+			[
+				"dep",
+				"dependencies"
+			],
+			[
+				"reg",
+				"registerHelper"
+			],
+			[
+				"gre",
+				"gray-lighter"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"src",
+				"srcFile"
+			],
+			[
+				"assemble",
+				"assemble-internal"
+			],
+			[
+				"asse",
+				"assemble"
+			],
+			[
+				"ass",
+				"assemble"
+			],
+			[
+				"sty",
+				"stylesdocs"
+			],
+			[
+				"ava",
+				"avatar_url"
+			],
+			[
+				"as",
+				"assemble-styles"
+			],
+			[
+				"Ase",
+				"Assemble"
+			],
+			[
+				"pre",
+				"preprocessors"
+			],
+			[
+				"too",
+				"toolkit-component"
+			],
+			[
+				"base",
+				"themeBaseColor"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"callout",
+				"callout-date"
+			],
+			[
+				"example",
+				"example-code"
+			],
+			[
+				"myC",
+				"myCarousel"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"car",
+				"carousel"
+			],
+			[
+				"timeline",
+				"timeline-event"
+			],
+			[
+				"timelin",
+				"timeline-event"
+			],
+			[
+				"border",
+				"border-radius	border-radius"
+			],
+			[
+				"san",
+				"sans-serif"
+			],
+			[
+				"carousel",
+				"carousel-well"
+			],
+			[
+				"pla",
+				"placeholder"
+			],
+			[
+				"drop",
+				"dropdown-search"
+			],
+			[
+				"form",
+				"form-search"
+			],
+			[
+				"search",
+				"search-query"
+			],
+			[
+				"button",
+				"buttonBackground"
+			],
+			[
+				"grayLigh",
+				"grayLightest"
+			],
+			[
+				"linkColor",
+				"linkColorHover"
+			],
+			[
+				"upp",
+				"uppercase"
+			],
+			[
+				"post",
+				"post-actions"
+			],
+			[
+				"vig",
+				"vignette"
+			],
+			[
+				"nav-tabs",
+				"nav-tabs	Bootstrap nav tabs"
+			],
+			[
+				"nav",
+				"nav	Bootstrap navbar navigation"
+			],
+			[
+				"bord",
+				"border-radius	border-radius"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"men",
+				"menu-inner"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"edi",
+				"edit-header"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 1002,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/pages/index.hbs",
+			"settings":
+			{
+				"buffer_size": 401,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/jps/AppData/Roaming/Sublime Text 3/Packages/Handlebars/Handlebars.tmLanguage",
+			"settings":
+			{
+				"buffer_size": 16190,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/Preview in Chrome.sublime-build",
+	"command_palette":
+	{
+		"height": 60.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"syn mu",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"syn muc",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"fomr",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"syn jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"syn md",
+				"Set Syntax: Markdown"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"fo",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn less",
+				"Set Syntax: LESS"
+			],
+			[
+				"css",
+				"Tidy CSS"
+			],
+			[
+				"syn ht",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"syn json",
+				"Set Syntax: JSON"
+			],
+			[
+				"gist",
+				"Gist: Create Public Gist"
+			],
+			[
+				"form json",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"syn ya",
+				"Set Syntax: YAML"
+			],
+			[
+				"syn mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"form j",
+				"Format: Javascript"
+			],
+			[
+				"form js",
+				"Format: Javascript"
+			],
+			[
+				"fomr js",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"syn htm	",
+				"Set Syntax: HTML"
+			],
+			[
+				" syn md",
+				"Set Syntax: Markdown"
+			],
+			[
+				" form js",
+				"Format: Javascript"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pando",
+				"Pandoc: Render Markdown to temp HTML and View"
+			],
+			[
+				"syn text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"syn mus",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"fo json",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"form ",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"syn yaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"fomr ",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"fo js",
+				"Format: Javascript"
+			],
+			[
+				"syn must",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"syn musta",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"for json",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"",
+				"Fetch"
+			],
+			[
+				"fetch",
+				"Fetch"
+			],
+			[
+				"Zen Coding: ",
+				"Zen Coding: Endcode/decode base64"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"remove",
+				"Tag: Remove Picked Attributes From Tags in Document"
+			],
+			[
+				"Package Control: upd",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"snip scrip",
+				"Snippet: Bootstrap scripts reference"
+			],
+			[
+				"Snippet: nav	",
+				"Snippet: Bootstrap nav tabs"
+			],
+			[
+				"snip do	",
+				"Snippet: DOCTYPE HTML"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"JSHint"
+			],
+			[
+				"ready",
+				"Snippet: jQuery ready function"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"tid",
+				"Tidy HTML"
+			],
+			[
+				"html",
+				"HTMLPrettify: Prettify"
+			],
+			[
+				"Snippet: boot scrip",
+				"Snippet: Bootstrap scripts reference"
+			],
+			[
+				"Snippet: script",
+				"Snippet: Bootstrap scripts reference"
+			],
+			[
+				"Package Control: g",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Contro",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: l",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: bord	",
+				"Snippet: table-bordered"
+			],
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: list	",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: <meta>"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control:in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Dropbox/Development/generate/assemble/assemble-examples/examples-markdown/src/templates/partials/navbar-fixed-top.hbs",
+		"/E/Dropbox/Development/generate/assemble/assemble-examples/examples-markdown/DOCUMENTATION.md",
+		"/C/Users/jps/AppData/Roaming/Sublime Text 3/Packages/Better CoffeeScript/CoffeeScript.sublime-settings",
+		"/C/Users/jps/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/jps/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/jps/AppData/Roaming/Sublime Text 3/Installed Packages/HTML Mustache.sublime-package",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/content/posts/css-properties.md",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/docs/Getting-Started.html",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/docs/About.html",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/pages/examples.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/README.md",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/content/wiki/pages/options-partials.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/docs/assets/css/monokai.css",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/local-helpers.js",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/content/wiki/pages/code-snippets/options-partials.js",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/layouts/layout-docs.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/content/wiki/pages/code-snippets/options-partials-adv.js",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/node_modules/assemble/node_modules/assemble-handlebars/node_modules/helper-lib/lib/helpers/helpers-special.js",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/docs/options-partials.html",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/docs/assets/js/highlight.js",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/snippets/manual-links.md.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/less/components/blockquote.less",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/content/wiki/generated-links.md.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/less/components/panels.less",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/content/wiki/wiki-toc.md.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/content/wiki/manual-links.md.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/snippets/wiki-links-tests.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/content/wiki/build-links.md.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/content/wiki/generated-links.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/content/wiki/wiki-links.md.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/content/wiki/generate-links.md.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/snippets/generate-links.md.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/snippets/wiki-links.md.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/snippets/wiki-links.hbs",
+		"/E/Dropbox/Development/generate/assemble/assemble-master/docs/Getting-Started.html",
+		"/E/Dropbox/Development/generate/assemble/assemble-master/docs/Home.html",
+		"/E/Dropbox/Development/generate/assemble/assemble-master/blog.html",
+		"/E/Dropbox/Development/generate/assemble/assemble-master/examples.html",
+		"/E/Dropbox/Development/generate/assemble/assemble-master/index.html",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/less/components/nav.less",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/index.html",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/navbar.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/pages/index.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/pages/blog.hbs",
+		"/E/Dropbox/Development/generate/assemble/assemble-less/master/package.json",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/package.json",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/node_modules/assemble/package.json",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/snippets/manual-links.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/layouts/layout-default.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/snippets/less-js.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/less/components/palette.less",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/data/swatch.yml",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/components/swatch.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/site/examples.html",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/bower.json",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/manifest.json",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/node_modules/grunt/lib/grunt/task.js",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/example.js",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/node_modules/grunt/node_modules/glob/glob.js",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/node_modules/grunt/lib/grunt/file.js",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/node_modules/assemble/node_modules/assemble-handlebars/node_modules/helper-lib/lib/helpers/helpers-file.js",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/node_modules/assemble-less/node_modules/less/lib/less/index.js",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/less/variables.less",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/less/components/component-docs.less",
+		"/C/Users/jps/AppData/Roaming/Sublime Text 2/Packages/LESS/LESS.tmLanguage",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/less/components/tooltip.less",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/vendor/bootstrap/docs/docs.html",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/vendor/bootstrap/docs/assets/js/application.js",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/vendor/bootstrap/docs/_includes/footer.html",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/data/palette.yml",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/components/palette.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/layouts/layout-components.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/masthead.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/less/components/buttons.less",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/less/components/band.less",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/less/components/masthead.less",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/data/landing.yml",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/less/components/banner.less",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/less/components/teaser.less",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/banner.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/teaser-link.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/teaser.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/less/components/b.less",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/data/jumbotron.yml",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/pages/examples/examples-buttons.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/layouts/layout-landing.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/google-analytics.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/vendor/bootstrap/docs/_includes/header.html",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/data/site.yml",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/layouts/default.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/layouts/post.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/less/components/fonts.less",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/less/components/webfonts.less",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/less/assemble.less",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/data/thumbnails.json",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/gallery.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/less/components/buttons-backup.less",
+		"/C/Users/jps/AppData/Roaming/Sublime Text 2/Settings/SideBarEnhancements.json",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/wiki-links.md.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/data/banner.json",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/wiki-links.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/data/gh-pages.json",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/data/ghpages.json",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/data/wiki.json",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/data/docs.json",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/docs.json",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/node_modules/assemble/node_modules/assemble-handlebars/node_modules/helper-lib/lib/helpers/helpers-collections.js",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/layouts/empty.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/vendor/bootstrap/less/bootstrap.less",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/partials/sidebar-categories.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/pages/bootstrap/includes/nav-main.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/site/bootstrap/components.html",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/site/bootstrap/css.html",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/pages/bootstrap/includes/header.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/pages/bootstrap/includes/footer.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/pages/bootstrap/index.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/pages/bootstrap/getting-started.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/pages/bootstrap/docs.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/node_modules/assemble/node_modules/assemble-handlebars/node_modules/handlebars/lib/handlebars/base.js",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/pages/bootstrap/components.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/pages/bootstrap/css.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/pages/bootstrap/javascript.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/pages/bootstrap/customize.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/layouts/bootstrap-home.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/pages/components.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/src/templates/layouts/bootstrap.hbs",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/vendor/bootstrap/docs/customize.html",
+		"/E/Dropbox/Development/generate/assemble/gh-pages/vendor/bootstrap/docs/_layouts/default.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\node_modules\\assemble\\node_modules\\assemble-handlebars\\node_modules\\helper-lib\\lib\\helpers",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\less\\components",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\node_modules\\grunt\\lib",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\node_modules\\grunt",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\node_modules\\grunt\\lib\\grunt",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\node_modules\\grunt\\lib",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\node_modules\\grunt\\lib\\grunt",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\vendor\\bootstrap\\docs",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\site\\assets\\css",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\less\\components",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\node_modules\\assemble\\node_modules\\assemble-handlebars\\node_modules\\helper-lib\\lib\\helpers",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates\\pages\\bootstrap",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates\\pages\\bootstrap\\components.hbs,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates\\pages\\bootstrap\\css.hbs,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates\\pages\\bootstrap\\customize.hbs,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates\\pages\\bootstrap\\docs.hbs,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates\\pages\\bootstrap\\getting-started.hbs,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates\\pages\\bootstrap\\index.hbs,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates\\pages\\bootstrap\\javascript.hbs",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\node_modules\\assemble\\node_modules\\assemble-handlebars\\node_modules\\handlebars\\lib\\handlebars",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates\\pages\\bootstrap\\components.hbs,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates\\pages\\bootstrap\\components.hbs-backup,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates\\pages\\bootstrap\\css.hbs,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates\\pages\\bootstrap\\customize.hbs,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates\\pages\\bootstrap\\docs.hbs,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates\\pages\\bootstrap\\getting-started.hbs,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates\\pages\\bootstrap\\index.hbs,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates\\pages\\bootstrap\\javascript.hbs",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\vendor\\assemble-website-template-master",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\node_modules\\assemble\\node_modules\\assemble-handlebars\\node_modules\\helper-lib\\lib\\helpers",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\less\\components",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\less",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\vendor\\bootstrap\\less",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\vendor\\bootstrap\\docs",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\vendor\\bootstrap\\docs\\components.html,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\vendor\\bootstrap\\docs\\css.html,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\vendor\\bootstrap\\docs\\customize.html,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\vendor\\bootstrap\\docs\\docs.html,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\vendor\\bootstrap\\docs\\getting-started.html,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\vendor\\bootstrap\\docs\\index.html,E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\vendor\\bootstrap\\docs\\javascript.html",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\less\\components",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\less",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\vendor\\bootstrap\\less",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\less\\components",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\vendor\\bootstrap\\less",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\vendor\\bootstrap",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\vendor\\bootstrap\\less",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\vendor\\bootstrap\\docs",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\vendor\\bootstrap",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates\\partials",
+			"E:\\Dropbox\\Development\\generate\\assemble\\gh-pages\\src\\templates",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\node_modules\\assemble\\node_modules\\helper-lib\\lib\\helpers",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\generate",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\assemble\\sections",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\assemble",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\tmp\\thock.net-master\\resources",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\tmp\\thock.net-master\\resources\\tasks",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\helpers\\helpers",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\assemble\\sections",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\node_modules\\grunt\\lib\\grunt",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\assemble\\sections",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\wiki",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\assemble\\sections",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\helpers",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\assemble\\sections",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\helpers\\helpers",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\assemble\\sections",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\assemble",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\assemble\\sections",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\assemble",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\assemble\\sections",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\wiki",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\less-tests",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\assemble-less",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\assemble",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\assemble-less",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\wiki",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\test\\sections",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\node_modules\\assemble\\tasks",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\node_modules\\assemble\\lib",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\node_modules\\assemble",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\node_modules\\assemble\\tasks",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\node_modules\\assemble\\lib",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\assemble",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\assemble",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\helper-lib\\helpers",
+			"<project>",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-internal\\docs\\templates",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-master\\lib",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-master",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-styles\\examples\\css",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-styles\\test\\less",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-master",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-master\\test",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-master\\node_modules",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-examples\\readme\\node_modules\\assemble\\lib",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-master\\lib",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-example-readme\\src",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-example-readme\\src\\layouts",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-example-readme\\src",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-example-readme\\src\\content",
+			"E:\\Dropbox\\Development\\generate\\assemble",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-styles\\node_modules\\grunt-contrib-jshint",
+			"E:\\Dropbox\\Development\\generate\\assemble",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-themes",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-themes\\src\\themes\\libs\\bootstrap",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-master\\examples\\advanced\\src",
+			"E:\\Dropbox\\Development\\generate\\assemble",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-master\\examples",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-master\\examples\\grid\\src",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-master",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-gh-pages2\\src\\less",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-gh-pages2\\src\\less\\components",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-gh-pages2\\src\\less",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-gh-pages2\\src\\less\\components",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-gh-pages2\\src\\less",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-gh-pages2\\src\\templates",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-gh-pages2",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-gh-pages2\\src\\less",
+			"E:\\Dropbox\\Development\\generate\\assemble\\assemble-master\\docs",
+			"C:\\Users\\Schlink\\AppData\\Roaming\\npm\\node_modules\\grunt-init",
+			"C:\\Users\\Schlink\\AppData\\Roaming\\npm\\node_modules\\grunt-init\\templates\\commonjs",
+			"C:\\Users\\Schlink\\AppData\\Roaming\\npm\\node_modules\\grunt-init\\tasks",
+			"C:\\Users\\Schlink\\AppData\\Roaming\\npm\\node_modules\\grunt-init",
+			"C:\\Users\\Schlink\\AppData\\Roaming\\npm\\node_modules\\grunt-init\\templates\\component",
+			"E:\\Dropbox\\Development\\_open-source\\assemble\\grunt-init\\templates\\module",
+			"E:\\Dropbox\\Development\\_open-source\\assemble\\grunt-init",
+			"E:\\Dropbox\\Development\\_open-source\\assemble\\grunt-bbb-wip",
+			"E:\\Dropbox\\Development\\_open-source\\assemble\\grunt-init\\tasks",
+			"E:\\Dropbox\\Development\\_open-source\\assemble\\grunt-init\\templates"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"src/",
+			"nav",
+			"path.join",
+			"src",
+			"return Utils.safeString",
+			"options",
+			"src",
+			"template",
+			"&quot;",
+			"&gt;",
+			"&#39;",
+			"(https://github.com/assemble/assemble-examples)",
+			"https://github.com/assemble/assemble-examples",
+			"#333",
+			"h1",
+			"+",
+			"uppercase",
+			"src/templates/layouts/",
+			"layout-docs",
+			"peer",
+			"site",
+			"site/docs",
+			"wiki-links",
+			"exists",
+			"bowers",
+			"findup",
+			"find",
+			"nocase",
+			"find",
+			"meta",
+			"bower",
+			"normalize",
+			"};\n",
+			"normali",
+			"Handlebars.registerHelper",
+			"main",
+			"write",
+			"production",
+			"//",
+			"just",
+			".color",
+			"background-color",
+			"brand",
+			" \"",
+			" color: ",
+			" class: ",
+			"swatch-color",
+			"brand-",
+			"- \"",
+			"swatch",
+			"swatch-color",
+			"swatch",
+			"- ",
+			"#",
+			";",
+			"#",
+			"swatch-tooltip",
+			"palette",
+			"tool",
+			"Tooltip",
+			"tooltip",
+			"section",
+			"palette",
+			"span",
+			"bs-docs-container",
+			"example",
+			"- ",
+			"palette",
+			"swatch",
+			".",
+			".brand",
+			"@",
+			"#",
+			"@",
+			" @palette",
+			"palette",
+			"@gray",
+			": @",
+			" {",
+			"palette",
+			"Palette",
+			"palette",
+			"banner",
+			"teaser",
+			"banner",
+			"teaser",
+			"border);",
+			"button",
+			"@gray-darker",
+			"darken(@btn-default-color, 1%);",
+			"purple",
+			"brand",
+			"showcase",
+			"]:",
+			"components",
+			"dest",
+			"toString",
+			"unde",
+			"something",
+			"component",
+			"pkg",
+			"links",
+			"tag",
+			"map",
+			"navbar-fixed-top",
+			"class=\"bs-example bs-navbar-top-example\"",
+			"navbar-fixed",
+			"navbar",
+			"{%",
+			"include",
+			"functionType",
+			"functionTyp",
+			"registerHelper",
+			"if",
+			"/*!",
+			"href=\"/",
+			"{% endhighlight %}",
+			"{% highlight js linenos %}",
+			"{% highlight html linenos %}",
+			"{% highlight css %}",
+			"{% highlight js %}",
+			"{% highlight html %}",
+			"{% endhighlight %}",
+			"{% highlight js %}",
+			"relative page.dest 'vendor/bootstrap/docs/assets'",
+			"return Utils.safeString",
+			"return new Handlebars.SafeString",
+			"{{relative this.dest 'vendor/bootstrap/docs/assets'}}"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"</code></pre>",
+			"<pre><code class=\"lang-js linenos\">",
+			"<pre><code class=\"lang-html linenos\">",
+			"<pre><code class=\"lang-css\">",
+			"<pre><code class=\"lang-js\">",
+			"<pre><code class=\"lang-html\">",
+			"TOC",
+			"package.name",
+			"meta.",
+			"package.",
+			"assemble-less",
+			"\"",
+			"\\n",
+			"project.",
+			"0.3.9",
+			"]",
+			"[",
+			"}})",
+			"(",
+			"js",
+			"<%= bootstrap.root",
+			"assemble",
+			"Assemble",
+			"assemble",
+			"Handlebars",
+			"@blue",
+			"0,0,0,",
+			"255,255,255,",
+			"0,0,0,.2",
+			".box-sizing(border-box)",
+			"@link-color",
+			".css\";",
+			"@import \"",
+			"assemble",
+			"\";",
+			";",
+			"@import \"",
+			"assemble",
+			"'",
+			"assemble",
+			"Assemble",
+			"**Parameters**: \n**Usage**:\n```",
+			"**",
+			"\"",
+			"component_name",
+			"module_name",
+			"/",
+			"\n'",
+			"\n",
+			"sellside",
+			"themePrimaryColor",
+			"color",
+			"ed",
+			"themeSaturation",
+			"themeBaseColor",
+			"assembleBaseColor",
+			"255,255,255,.6",
+			"255,255,255,1",
+			"255,255,255,0",
+			"255,255,255,.25",
+			"class=\"row-fluid\"",
+			"Assemble",
+			"assemble",
+			"class=\"row-fluid\"",
+			"assets/js/bootstrap",
+			"Assemble",
+			"assemble",
+			"          ",
+			"",
+			"links",
+			".tabs-bar ",
+			"",
+			"panel",
+			"href=\"../assets",
+			"<br>",
+			"module deepest",
+			"Inc",
+			"Sellside",
+			"",
+			"row-fluid",
+			"span3",
+			"\"../../../less/",
+			"\"../../less/",
+			"\"../../",
+			"",
+			"toolkit",
+			"",
+			"(",
+			"Designed by <a class=\"\"",
+			"src=\"../assets",
+			"href=\"../assets",
+			"stock",
+			",.",
+			"0,",
+			"../../",
+			"<div class=\"callout callout-inverse\">",
+			"src=\"http://www.yootheme.com/images/",
+			"src=\"http://www.yootheme.com/zoo/images/",
+			",.",
+			"0,",
+			"inverse",
+			"",
+			" src=\"../assets",
+			"th",
+			"#",
+			"@inverse",
+			"@inverseError",
+			"@inverseHero",
+			"@inversePagination",
+			"@inverseDropdown",
+			"@inverseInput",
+			"@inverseBtn",
+			"@inverse",
+			"",
+			"arrowWidthSmall",
+			"large",
+			"@posX @posY",
+			"highlight",
+			"well-highlight",
+			"new",
+			".well-promos ",
+			"",
+			",.",
+			"0,",
+			"center",
+			"@lastPos",
+			" @middlePos",
+			" @startPos"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "E:\\Dropbox\\Development\\generate\\assemble\\assemble-examples\\examples-markdown"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								941,
+								941
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/templates/pages/index.hbs",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/jps/AppData/Roaming/Sublime Text 3/Packages/Handlebars/Handlebars.tmLanguage",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								16190
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 96.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 335.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
