@@ -1,0 +1,23 @@
+---
+title: Docs
+options: ['src/content/wiki/options.md', 'src/content/wiki/options-*.md']
+templates: ['src/content/wiki/templates-*.md']
+context: ['src/content/wiki/data.md', 'src/content/wiki/data-*.md']
+---
+
+<h1>Options</h1>
+{{#each options}}
+  {{md this}}
+{{/each}}
+
+
+<h1>Templates</h1>
+{{#each templates}}
+  {{md this}}
+{{/each}}
+
+
+<h1>Data</h1>
+{{#each context}}
+  {{md this}}
+{{/each}}

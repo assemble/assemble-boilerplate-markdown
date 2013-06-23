@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Markdown &quot;Includes&quot;</title>
+    <link rel="stylesheet" href="assets/assemble.css">
+    <link rel="stylesheet" href="assets/github.css">
+  </head>
+  <body style="background: white;">
+
+
+    <!-- Navbar 
+    ============================================== -->
+    
+<!-- Navbar component
+================================================== -->
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">ASSEMBLE</a>
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="nav-collapse collapse bs-navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="examples.html">Examples</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav pull-right">
+          <li> <a href="https://github.com/upstage/mixins/">GitHub Repo</a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Subhead
+    ============================================== -->
+    <header class="masthead subhead">
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-12">
+            <h1><span class="text-muted">Docs /</span> Markdown Helpers </h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Page content
+    ============================================== -->
+    <div class="container">
+      <div class="col col-lg-3">
+        <div class="sidebar">
+  <span class="nav-section-title">
+    <strong>{{markdown}}</strong> Helper
+  </span>
+  <ul class="nav nav-pills nav-stacked">
+    <li><a href="markdown-block-1.html">Markdown "Includes"</a></li>
+    <li><a href="markdown-block-2.html">Inline Markdown</a></li>
+  </ul>
+  <span class="nav-section-title">
+    <strong>{{md}}</strong> Helper
+  </span>
+  <ul class="nav nav-pills nav-stacked">
+    <li><a href="markdown-globbing-1.html">Alternate "Includes"</a></li>
+    <li><a href="markdown-globbing-1.html">File Globbing #1</a></li>
+    <li><a href="markdown-globbing-2.html">File Globbing #2</a></li>
+  </ul>
+</div>
+      </div>
+      
+      <div class="col col-lg-9 panel-docs">
+        
+<h1>Markdown &quot;Includes&quot;</h1>
+<blockquote>
+<p>In this example we&#39;re doing the same thing as in &quot;three.hbs&quot; but we&#39;re using the &quot;include&quot; helper to pull in content from an external file rather than writing it inline.</p>
+</blockquote>
+<hr>
+<h1>Markdown Examples</h1>
+<blockquote>
+<p>Shows how to use Assemble to generate HTML pages from markdown content. Useful for wikis, gh-pages, documentation and blogs or sites with markdown posts.</p>
+</blockquote>
+<h3>&gt; Thank you to <a href="https://github.com/upstage">Upstage</a> for the theme used in the <a href="https://github.com/assemble/assemble-examples-markdown/">live demo</a>.</h3>
+<h2>What you&#39;ll learn in the examples</h2>
+<ul>
+<li>How to use <a href="https://github.com/isaacs/node-glob">file globbing</a> to include multiple markdown files based on specified patterns.</li>
+</ul>
+<h3>Rendering markdown to markdown</h3>
+<ul>
+<li>How to generate markdown files from markdown pages. See <a href="../src/content/TOC.md">../src/content/TOC.md</a></li>
+<li>How to use markdown &quot;includes&quot; that either render to HTML or render as markdown</li>
+<li>How to use markdown layouts for generating markdown files</li>
+</ul>
+<h3>Rendering markdown to HTML</h3>
+<ul>
+<li>How to write markdown &quot;inline&quot; with HTML and have it render to HTML</li>
+<li>How to generate HTML files from markdown pages, layouts and content.</li>
+</ul>
+<h2>Getting started</h2>
+<p>If you have trouble getting started, please visit the documentation at <a href="http://assemble.io">http://assemble.io</a>, or <a href="https://github.com/assemble/assemble/issues">create an Issue</a> at Assemble&#39;s GitHub repo, we&#39;re happy to help.</p>
+<p>This plugin requires Grunt <code>~0.4.1</code>. If you haven&#39;t used <a href="http://gruntjs.com/">Grunt</a> before, be sure to check out the <a href="http://gruntjs.com/getting-started">Getting Started</a> guide, as it explains how to create a <a href="http://gruntjs.com/sample-gruntfile">Gruntfile</a> as well as install and use Grunt plugins. Once you&#39;re familiar with that process, you may install this plugin with this command:</p>
+<pre><code class="lang-shell">npm install assemble --save-dev</code></pre>
+<p>Once the plugin has been installed, it may be enabled inside your [Gruntfile][Getting Started] with this line of JavaScript:</p>
+<pre><code class="lang-js">grunt.loadNpmTasks(&#39;assemble&#39;);</code></pre>
+<h2>The &quot;assemble&quot; task</h2>
+<p>In your project&#39;s Gruntfile, add a section named <code>assemble</code> to the data object passed into <code>grunt.initConfig()</code>.</p>
+<pre><code class="lang-js">grunt.initConfig({
+  assemble: {
+    options: {
+      // Task-specific options go here.
+    },
+    your_target: {
+      // Target-specific file lists and/or options go here.
+    }
+  }
+});
+grunt.loadNpmTasks(&#39;assemble&#39;);
+
+grunt.registerTask(&#39;default&#39;, [
+  &#39;jshint&#39;,
+  &#39;assemble&#39;
+]);</code></pre>
+<p>Task targets, files and options may be specified according to the grunt <a href="http://gruntjs.com/configuring-tasks">Configuring tasks</a> guide.</p>
+<p>You should now be able to run <code>grunt assemble</code> to build the project.</p>
+<p>Visit <a href="http://assemble.io">Assemble&#39;s documentation</a> for more information. </p>
+<h2>Contributing</h2>
+<p>In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][].</p>
+<h2>Release History</h2>
+<p><em>(Nothing yet)</em></p>
+
+      </div>
+    </div>
+    
+    <script src="assets/highlight.js"></script>
+  </body>
+</html>

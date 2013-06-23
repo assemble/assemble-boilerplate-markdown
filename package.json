@@ -1,0 +1,41 @@
+{
+  "name": "assemble-examples-markdown",
+  "description": "Shows how to use Assemble to build HTML pages from markdown content.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/upstage/mixins/",
+  "author": {
+    "name": "Jon Schlinkert",
+    "email": "dev@sellside.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jon Schlinkert/assemble-examples-markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/upstage/mixins/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/upstage/mixins//blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt assemble"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.4.1",
+    "assemble": "~0.4.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "build",
+    "site generator",
+    "component generator",
+    "blog generator",
+    "handlebars",
+    "templates"
+  ]
+}

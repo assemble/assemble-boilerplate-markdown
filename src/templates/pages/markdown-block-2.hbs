@@ -1,0 +1,15 @@
+---
+title: Markdown "Includes"
+section: Markdown Helpers
+description: In this example we're doing the same thing as in "three.hbs" but we're using the "include" helper to pull in content from an external file rather than writing it inline.
+---
+{{#markdown}}
+
+  # {{title}} 
+  > {{{description}}}
+  
+  ---
+
+  {{include 'README.md'}}
+
+{{/markdown}}

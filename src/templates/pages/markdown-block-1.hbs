@@ -1,0 +1,67 @@
+---
+title: Inline Markdown
+section: Markdown Helpers
+description: In this example markdown content from the README is written in between the open and close "markdown" block expressions so that it will be rendered to HTML. Handlebars templates are also embedded in the markdown for rendering the metadata from our YAML front matter.
+---
+
+{{#markdown}}
+
+# {{title}} 
+
+> {{{description}}}
+
+The markdown used in this example was borrowed from Assemble's wiki. Expect to find broken links since the "complete build" for the wiki includes components that are not present in this repo.
+
+
+## Getting started
+
+If you have trouble getting started, please visit the documentation at http://assemble.io, or [create an Issue](https://github.com/assemble/assemble/issues) at Assemble's GitHub repo, we're happy to help.
+
+This plugin requires Grunt `~0.4.1`. If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
+
+```shell
+npm install assemble --save-dev
+```
+
+Once the plugin has been installed, it may be enabled inside your [Gruntfile][Getting Started] with this line of JavaScript:
+
+```js
+grunt.loadNpmTasks('assemble');
+```
+
+## The "assemble" task
+In your project's Gruntfile, add a section named `assemble` to the data object passed into `grunt.initConfig()`.
+
+```js
+grunt.initConfig({
+  assemble: {
+    options: {
+      // Task-specific options go here.
+    },
+    your_target: {
+      // Target-specific file lists and/or options go here.
+    }
+  }
+});
+grunt.loadNpmTasks('assemble');
+
+grunt.registerTask('default', [
+  'jshint',
+  'assemble'
+]);
+```
+Task targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
+
+
+You should now be able to run `grunt assemble` to build the project.
+
+Visit [Assemble's documentation](http://assemble.io) for more information. 
+
+
+## Contributing
+In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][].
+
+## Release History
+_(Nothing yet)_
+
+{{/markdown}}
