@@ -1,8 +1,8 @@
-# Markdown Examples
+# assemble-examples-markdown
 
-> Shows how to use Assemble to generate HTML pages from markdown content. Useful for wikis, gh-pages, documentation and blogs or sites with markdown posts.
+> Use Assemble to generate HTML pages from markdown content. Useful for wikis, gh-pages, documentation and blogs or sites with markdown posts.
 
-### Thank you to [Upstage](https://github.com/upstage) for the theme used in the [live demo](https://github.com/assemble/assemble-examples-markdown/)!.
+#### Thank you to [Upstage](https://github.com/upstage) for the theme used in the [live demo](https://github.com/assemble/assemble-examples-markdown/)!.
 
 This is not "documentation" per se, it is just examples. So you will learn by browsing the source code, rendered code, and seeing how it renders in the browser.
 

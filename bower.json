@@ -1,0 +1,8 @@
+{
+  "name": "assemble-examples-markdown",
+  "dependencies": {
+    "grunt-contrib-clean": "~0.4.1",
+    "assemble": "~0.4.0",
+    "grunt": "~0.4.1"
+  }
+}

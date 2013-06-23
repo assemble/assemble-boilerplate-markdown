@@ -1,36 +1,50 @@
 {
   "name": "assemble-examples-markdown",
-  "description": "Shows how to use Assemble to build HTML pages from markdown content.",
+  "description": "Use Assemble to generate HTML pages from markdown content. Useful for wikis, gh-pages, documentation and blogs or sites with markdown posts.",
   "version": "0.1.0",
-  "homepage": "https://github.com/upstage/mixins/",
+  "homepage": "https://github.com/assemble/assemble-examples-markdown/",
   "author": {
-    "name": "Jon Schlinkert",
-    "email": "dev@sellside.com"
+    "name": "Assemble"
   },
+  "contributors": [
+    {
+      "name": "Jon Schlinkert",
+      "url": "https://github.com/jonschlinkert"
+    },
+    {
+      "name": "Brian Woodward",
+      "url": "https://github.com/doowb"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Jon Schlinkert/assemble-examples-markdown.git"
+    "url": "git://github.com/assemble/assemble-examples-markdown.git"
   },
   "bugs": {
-    "url": "https://github.com/upstage/mixins/issues"
+    "url": "https://github.com/assemble/assemble-examples-markdown/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/upstage/mixins//blob/master/LICENSE-MIT"
+      "url": "https://github.com/assemble/assemble-examples-markdown/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
   "scripts": {
     "test": "grunt assemble"
   },
-  "devDependencies": {
+  "dependencies": {
     "grunt-contrib-clean": "~0.4.1",
     "assemble": "~0.4.0",
     "grunt": "~0.4.1"
   },
   "keywords": [
-    "gruntplugin",
+    "markdown",
+    "markdown to html",
+    "jekyll alternative",
+    "jekyll node.js",
+    "content",
+    "assemble",
     "build",
     "site generator",
     "component generator",
