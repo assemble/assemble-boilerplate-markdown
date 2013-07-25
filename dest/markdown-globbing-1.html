@@ -168,8 +168,8 @@ other Markdown constructs:</p>
 <p>_underscores_</p>
 <p>`backticks`</p>
 <p>This is a code span with a literal backslash-backtick sequence: <code>\` </code></p>
-<p>This is a tag with unescaped backticks <span attr='`ticks`'>bar</span>.</p>
-<p>This is a tag with backslashes <span attr='\\backslashes\\'>bar</span>.</p>
+<p>This is a tag with unescaped backticks &lt;span attr=&#39;`ticks`&#39;&gt;bar&lt;/span&gt;.</p>
+<p>This is a tag with backslashes &lt;span attr=&#39;\\backslashes\\&#39;&gt;bar&lt;/span&gt;.</p>
 <p>This fails in markdown.pl and upskirt:</p>
 <ul>
 <li>hello<blockquote>
@@ -197,7 +197,7 @@ all contain trailing spaces  </code></pre>
 <p>Regular Text.</p>
 <pre><code>code block on the last line</code></pre>
 <p><code>&lt;test a=&quot;</code> content of attribute <code>&quot;&gt;</code></p>
-<p>Fix for backticks within HTML tag: <span attr='`ticks`'>like this</span></p>
+<p>Fix for backticks within HTML tag: &lt;span attr=&#39;`ticks`&#39;&gt;like this&lt;/span&gt;</p>
 <p>Here&#39;s how you put <code>`backticks` </code> in a code span.</p>
 <blockquote>
 <p>hello</p>
@@ -219,10 +219,11 @@ all contain trailing spaces  </code></pre>
 bar</p>
 <p>bar</p>
 </blockquote>
-<p>Already linked: <a href="http://example.com/"><a href="http://example.com/">http://example.com/</a></a>.</p>
+<p>&lt;p&gt;Already linked: &lt;a href=&quot;http://example.com/&quot;&gt;<a href="http://example.com/">http://example.com/</a>&lt;/a&gt;.&lt;/p&gt;
 
+</p>
 <p>Already linked: <a href="http://example.com/"><a href="http://example.com/">http://example.com/</a></a>.</p>
-<p>Already linked: <a href="http://example.com/"><strong><a href="http://example.com/">http://example.com/</a></strong></a>.</p>
+<p>Already linked: &lt;a href=&quot;http://example.com/&quot;&gt;<strong><a href="http://example.com/">http://example.com/</a></strong>&lt;/a&gt;.</p>
 <p>></p>
 <p>Look at the
 pretty line
@@ -284,9 +285,9 @@ breaks.</p>
         bar
 
 5. foo</code></pre>
-<pre><code class="lang-js">var a = &#39;hello&#39;;
-console.log(a + &#39; world&#39;);</code></pre>
-<pre><code class="lang-bash">echo &quot;hello, ${WORLD}&quot;</code></pre>
+<pre><code class="lang-js"><span class="keyword">var</span> a = <span class="string">'hello'</span>;
+console.log(a + <span class="string">' world'</span>);</code></pre>
+<pre><code class="lang-bash"><span class="keyword">echo</span> <span class="string">"hello, <span class="variable">${WORLD}</span>"</span></code></pre>
 <pre><code class="lang-longfence">Q: What do you call a tall person who sells stolen goods?</code></pre>
 <pre><code class="lang-ManyTildes">A longfence!</code></pre>
 <p>hello <del>hi</del> world</p>
@@ -426,35 +427,41 @@ are</li>
 <hr>
 <p>you today?</p>
 <p>Simple block on one line:</p>
-<div>foo</div>
+<p>&lt;div&gt;foo&lt;/div&gt;
 
+</p>
 <p>And nested without indentation:</p>
-<div>
-<div>
-<div>
+<p>&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
 foo
-</div>
-<div style=">"/>
-</div>
-<div>bar</div>
-</div>
+&lt;/div&gt;
+&lt;div style=&quot;&gt;&quot;/&gt;
+&lt;/div&gt;
+&lt;div&gt;bar&lt;/div&gt;
+&lt;/div&gt;
 
+</p>
 <p>Paragraph one.</p>
-<!-- This is a simple comment -->
+<p>&lt;!-- This is a simple comment --&gt;
 
-<!--
+</p>
+<p>&lt;!--
     This is another comment.
--->
+--&gt;
 
+</p>
 <p>Paragraph two.</p>
-<!-- one comment block -- -- with two comments -->
+<p>&lt;!-- one comment block -- -- with two comments --&gt;
 
+</p>
 <p>The end.</p>
 <p>Here&#39;s a simple block:</p>
-<div>
+<p>&lt;div&gt;
     foo
-</div>
+&lt;/div&gt;
 
+</p>
 <p>This should be a code block, though:</p>
 <pre><code>&lt;div&gt;
     foo
@@ -462,50 +469,63 @@ foo
 <p>As should this:</p>
 <pre><code>&lt;div&gt;foo&lt;/div&gt;</code></pre>
 <p>Now, nested:</p>
-<div>
-    <div>
-        <div>
+<p>&lt;div&gt;
+    &lt;div&gt;
+        &lt;div&gt;
             foo
-        </div>
-    </div>
-</div>
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 
+</p>
 <p>This should just be an HTML comment:</p>
-<!-- Comment -->
+<p>&lt;!-- Comment --&gt;
 
+</p>
 <p>Multiline:</p>
-<!--
+<p>&lt;!--
 Blah
 Blah
--->
+--&gt;
 
+</p>
 <p>Code block:</p>
 <pre><code>&lt;!-- Comment --&gt;</code></pre>
 <p>Just plain comment, with trailing spaces on the line:</p>
-<!-- foo -->   
+<p>&lt;!-- foo --&gt;   
 
+</p>
 <p>Code:</p>
 <pre><code>&lt;hr&gt;</code></pre>
 <p>Hr&#39;s:</p>
-<hr>
+<p>&lt;hr&gt;
 
-<hr>
+</p>
+<p>&lt;hr&gt;
 
-<hr>
+</p>
+<p>&lt;hr&gt;
 
-<hr>   
+</p>
+<p>&lt;hr&gt;   
 
-<hr>  
+</p>
+<p>&lt;hr&gt;  
 
-<hr> 
+</p>
+<p>&lt;hr&gt; 
 
-<hr class="foo" id="bar" />
+</p>
+<p>&lt;hr class=&quot;foo&quot; id=&quot;bar&quot; /&gt;
 
-<hr class="foo" id="bar"/>
+</p>
+<p>&lt;hr class=&quot;foo&quot; id=&quot;bar&quot;/&gt;
 
-<hr class="foo" id="bar" >
+</p>
+<p>&lt;hr class=&quot;foo&quot; id=&quot;bar&quot; &gt;
 
 
+</p>
 <blockquote>
 <p>hi there
 bud</p>
@@ -623,9 +643,10 @@ you</p>
 For example, both markdown.js and showdown code blocks in lists wrong. They&#39;re
 also completely <a href="http://google.com/" title="Google">inconsistent</a> with regards to paragraphs in list items.</p>
 <p>A link. Not anymore.</p>
-<aside>This will make me fail the test because
-markdown.js doesnt acknowledge arbitrary html blocks =/</aside>
+<p>&lt;aside&gt;This will make me fail the test because
+markdown.js doesnt acknowledge arbitrary html blocks =/&lt;/aside&gt;
 
+</p>
 <ul>
 <li><p>List Item 1</p>
 </li>
@@ -674,15 +695,16 @@ And an image <img src="src" alt="alt">.</p>
 <pre><code>Code goes here.
 Lots of it...</code></pre>
 <h1>Markdown: Basics</h1>
-<ul id="ProjectSubmenu">
-    <li><a href="/projects/markdown/" title="Markdown Project Page">Main</a></li>
-    <li><a class="selected" title="Markdown Basics">Basics</a></li>
-    <li><a href="/projects/markdown/syntax" title="Markdown Syntax Documentation">Syntax</a></li>
-    <li><a href="/projects/markdown/license" title="Pricing and License Information">License</a></li>
-    <li><a href="/projects/markdown/dingus" title="Online Markdown Web Form">Dingus</a></li>
-</ul>
+<p>&lt;ul id=&quot;ProjectSubmenu&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/projects/markdown/&quot; title=&quot;Markdown Project Page&quot;&gt;Main&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class=&quot;selected&quot; title=&quot;Markdown Basics&quot;&gt;Basics&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/projects/markdown/syntax&quot; title=&quot;Markdown Syntax Documentation&quot;&gt;Syntax&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/projects/markdown/license&quot; title=&quot;Pricing and License Information&quot;&gt;License&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/projects/markdown/dingus&quot; title=&quot;Online Markdown Web Form&quot;&gt;Dingus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 
+</p>
 <h2>Getting the Gist of Markdown&#39;s Formatting Syntax</h2>
 <p>This page offers a brief overview of what it&#39;s like to use Markdown.
 The <a href="/projects/markdown/syntax" title="Markdown Syntax">syntax page</a> provides complete, detailed documentation for
@@ -891,15 +913,16 @@ you&#39;ve got to put paragraph tags in your blockquotes:&lt;/p&gt;
 &amp;lt;/blockquote&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;</code></pre>
 <h1>Markdown: Syntax</h1>
-<ul id="ProjectSubmenu">
-    <li><a href="/projects/markdown/" title="Markdown Project Page">Main</a></li>
-    <li><a href="/projects/markdown/basics" title="Markdown Basics">Basics</a></li>
-    <li><a class="selected" title="Markdown Syntax Documentation">Syntax</a></li>
-    <li><a href="/projects/markdown/license" title="Pricing and License Information">License</a></li>
-    <li><a href="/projects/markdown/dingus" title="Online Markdown Web Form">Dingus</a></li>
-</ul>
+<p>&lt;ul id=&quot;ProjectSubmenu&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/projects/markdown/&quot; title=&quot;Markdown Project Page&quot;&gt;Main&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/projects/markdown/basics&quot; title=&quot;Markdown Basics&quot;&gt;Basics&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class=&quot;selected&quot; title=&quot;Markdown Syntax Documentation&quot;&gt;Syntax&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/projects/markdown/license&quot; title=&quot;Pricing and License Information&quot;&gt;License&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/projects/markdown/dingus&quot; title=&quot;Online Markdown Web Form&quot;&gt;Dingus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 
+</p>
 <ul>
 <li><a href="#overview">Overview</a><ul>
 <li><a href="#philosophy">Philosophy</a></li>
@@ -932,10 +955,12 @@ you&#39;ve got to put paragraph tags in your blockquotes:&lt;/p&gt;
 <p><strong>Note:</strong> This document is itself written using Markdown; you
 can <a href="/projects/markdown/syntax.text">see the source for it by adding &#39;.text&#39; to the URL</a>.</p>
 <hr>
-<h2 id="overview">Overview</h2>
+<p>&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
 
-<h3 id="philosophy">Philosophy</h3>
+</p>
+<p>&lt;h3 id=&quot;philosophy&quot;&gt;Philosophy&lt;/h3&gt;
 
+</p>
 <p>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</p>
 <p>Readability, however, is emphasized above all else. A Markdown-formatted
 document should be publishable as-is, as plain text, without looking
@@ -950,8 +975,9 @@ as to look like what they mean. E.g., asterisks around a word actually
 look like *emphasis*. Markdown lists look like, well, lists. Even
 blockquotes look like quoted passages of text, assuming you&#39;ve ever
 used email.</p>
-<h3 id="html">Inline HTML</h3>
+<p>&lt;h3 id=&quot;html&quot;&gt;Inline HTML&lt;/h3&gt;
 
+</p>
 <p>Markdown&#39;s syntax is intended for one purpose: to be used as a
 format for <em>writing</em> for the web.</p>
 <p>Markdown is not a replacement for HTML, or even close to it. Its
@@ -991,8 +1017,9 @@ you&#39;d prefer to use HTML <code>&lt;a&gt;</code> or <code>&lt;img&gt;</code> 
 link or image syntax, go right ahead.</p>
 <p>Unlike block-level HTML tags, Markdown syntax <em>is</em> processed within
 span-level tags.</p>
-<h3 id="autoescape">Automatic Escaping for Special Characters</h3>
+<p>&lt;h3 id=&quot;autoescape&quot;&gt;Automatic Escaping for Special Characters&lt;/h3&gt;
 
+</p>
 <p>In HTML, there are two characters that demand special treatment: <code>&lt;</code>
 and <code>&amp;</code>. Left angle brackets are used to start tags; ampersands are
 used to denote HTML entities. If you want to use them as literal
@@ -1029,11 +1056,13 @@ Markdown to write about HTML code. (As opposed to raw HTML, which is a
 terrible format for writing about HTML syntax, because every single <code>&lt;</code>
 and <code>&amp;</code> in your example code needs to be escaped.)</p>
 <hr>
-<h2 id="block">Block Elements</h2>
+<p>&lt;h2 id=&quot;block&quot;&gt;Block Elements&lt;/h2&gt;
 
 
-<h3 id="p">Paragraphs and Line Breaks</h3>
+</p>
+<p>&lt;h3 id=&quot;p&quot;&gt;Paragraphs and Line Breaks&lt;/h3&gt;
 
+</p>
 <p>A paragraph is simply one or more consecutive lines of text, separated
 by one or more blank lines. (A blank line is any line that looks like a
 blank line -- a line containing nothing but spaces or tabs is considered
@@ -1049,8 +1078,9 @@ end a line with two or more spaces, then type return.</p>
 &quot;every line break is a <code>&lt;br /&gt;</code>&quot; rule wouldn&#39;t work for Markdown.
 Markdown&#39;s email-style <a href="#blockquote">blockquoting</a> and multi-paragraph <a href="#list">list items</a>
 work best -- and look better -- when you format them with hard breaks.</p>
-<h3 id="header">Headers</h3>
+<p>&lt;h3 id=&quot;header&quot;&gt;Headers&lt;/h3&gt;
 
+</p>
 <p>Markdown supports two styles of headers, <a href="http://docutils.sourceforge.net/mirror/setext.html">Setext</a> and <a href="http://www.aaronsw.com/2002/atx/">atx</a>.</p>
 <p>Setext-style headers are &quot;underlined&quot; using equal signs (for first-level
 headers) and dashes (for second-level headers). For example:</p>
@@ -1077,8 +1107,9 @@ determines the header level.) :</p>
 ## This is an H2 ##
 
 ### This is an H3 ######</code></pre>
-<h3 id="blockquote">Blockquotes</h3>
+<p>&lt;h3 id=&quot;blockquote&quot;&gt;Blockquotes&lt;/h3&gt;
 
+</p>
 <p>Markdown uses email-style <code>&gt;</code> characters for blockquoting. If you&#39;re
 familiar with quoting passages of text in an email message, then you
 know how to create a blockquote in Markdown. It looks best if you hard
@@ -1117,8 +1148,9 @@ and code blocks:</p>
 <p>Any decent text editor should make email-style quoting easy. For
 example, with BBEdit, you can make a selection and choose Increase
 Quote Level from the Text menu.</p>
-<h3 id="list">Lists</h3>
+<p>&lt;h3 id=&quot;list&quot;&gt;Lists&lt;/h3&gt;
 
+</p>
 <p>Markdown supports ordered (numbered) and unordered (bulleted) lists.</p>
 <p>Unordered lists use asterisks, pluses, and hyphens -- interchangably
 -- as list markers:</p>
@@ -1232,8 +1264,9 @@ accident, by writing something like this:</p>
 <p>In other words, a <em>number-period-space</em> sequence at the beginning of a
 line. To avoid this, you can backslash-escape the period:</p>
 <pre><code>1986\. What a great season.</code></pre>
-<h3 id="precode">Code Blocks</h3>
+<p>&lt;h3 id=&quot;precode&quot;&gt;Code Blocks&lt;/h3&gt;
 
+</p>
 <p>Pre-formatted code blocks are used for writing about programming or
 markup source code. Rather than forming normal paragraphs, the lines
 of a code block are interpreted literally. Markdown wraps a code block
@@ -1280,8 +1313,9 @@ ampersands and angle brackets. For example, this:</p>
 <p>Regular Markdown syntax is not processed within code blocks. E.g.,
 asterisks are just literal asterisks within a code block. This means
 it&#39;s also easy to use Markdown to write about Markdown&#39;s own syntax.</p>
-<h3 id="hr">Horizontal Rules</h3>
+<p>&lt;h3 id=&quot;hr&quot;&gt;Horizontal Rules&lt;/h3&gt;
 
+</p>
 <p>You can produce a horizontal rule tag (<code>&lt;hr&gt;</code>) by placing three or
 more hyphens, asterisks, or underscores on a line by themselves. If you
 wish, you may use spaces between the hyphens or asterisks. Each of the
@@ -1298,10 +1332,12 @@ following lines will produce a horizontal rule:</p>
 
 _ _ _</code></pre>
 <hr>
-<h2 id="span">Span Elements</h2>
+<p>&lt;h2 id=&quot;span&quot;&gt;Span Elements&lt;/h2&gt;
 
-<h3 id="link">Links</h3>
+</p>
+<p>&lt;h3 id=&quot;link&quot;&gt;Links&lt;/h3&gt;
 
+</p>
 <p>Markdown supports two style of links: <em>inline</em> and <em>reference</em>.</p>
 <p>In both styles, the link text is delimited by [square brackets].</p>
 <p>To create an inline link, use a set of regular parentheses immediately
@@ -1402,8 +1438,9 @@ closely resembles the final output, as rendered in a browser. By
 allowing you to move the markup-related metadata out of the paragraph,
 you can add links without interrupting the narrative flow of your
 prose.</p>
-<h3 id="em">Emphasis</h3>
+<p>&lt;h3 id=&quot;em&quot;&gt;Emphasis&lt;/h3&gt;
 
+</p>
 <p>Markdown treats asterisks (<code>*</code>) and underscores (<code>_</code>) as indicators of
 emphasis. Text wrapped with one <code>*</code> or <code>_</code> will be wrapped with an
 HTML <code>&lt;em&gt;</code> tag; double <code>*</code>&#39;s or <code>_</code>&#39;s will be wrapped with an HTML
@@ -1433,8 +1470,9 @@ literal asterisk or underscore.</p>
 would otherwise be used as an emphasis delimiter, you can backslash
 escape it:</p>
 <pre><code>\*this text is surrounded by literal asterisks\*</code></pre>
-<h3 id="code">Code</h3>
+<p>&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
 
+</p>
 <p>To indicate a span of code, wrap it with backtick quotes (<code>` </code>).
 Unlike a pre-formatted code block, a code span indicates code within a
 normal paragraph. For example:</p>
@@ -1467,8 +1505,9 @@ tags. Markdown will turn this:</p>
 <p>to produce:</p>
 <pre><code>&lt;p&gt;&lt;code&gt;&amp;amp;#8212;&lt;/code&gt; is the decimal-encoded
 equivalent of &lt;code&gt;&amp;amp;mdash;&lt;/code&gt;.&lt;/p&gt;</code></pre>
-<h3 id="img">Images</h3>
+<p>&lt;h3 id=&quot;img&quot;&gt;Images&lt;/h3&gt;
 
+</p>
 <p>Admittedly, it&#39;s fairly difficult to devise a &quot;natural&quot; syntax for
 placing images into a plain text document format.</p>
 <p>Markdown uses an image syntax that is intended to resemble the syntax
@@ -1495,10 +1534,12 @@ are defined using syntax identical to link references:</p>
 dimensions of an image; if this is important to you, you can simply
 use regular HTML <code>&lt;img&gt;</code> tags.</p>
 <hr>
-<h2 id="misc">Miscellaneous</h2>
+<p>&lt;h2 id=&quot;misc&quot;&gt;Miscellaneous&lt;/h2&gt;
 
-<h3 id="autolink">Automatic Links</h3>
+</p>
+<p>&lt;h3 id=&quot;autolink&quot;&gt;Automatic Links&lt;/h3&gt;
 
+</p>
 <p>Markdown supports a shortcut style for creating &quot;automatic&quot; links for URLs and email addresses: simply surround the URL or email address with angle brackets. What this means is that if you want to show the actual text of a URL or email address, and also have it be a clickable link, you can do this:</p>
 <pre><code>&lt;http://example.com/&gt;</code></pre>
 <p>Markdown will turn this into:</p>
@@ -1518,8 +1559,9 @@ spambots. For example, Markdown will turn this:</p>
 most, address-harvesting bots, but it definitely won&#39;t fool all of
 them. It&#39;s better than nothing, but an address published in this way
 will probably eventually start receiving spam.)</p>
-<h3 id="backslash">Backslash Escapes</h3>
+<p>&lt;h3 id=&quot;backslash&quot;&gt;Backslash Escapes&lt;/h3&gt;
 
+</p>
 <p>Markdown allows you to use backslash escapes to generate literal
 characters which would otherwise have special meaning in Markdown&#39;s
 formatting syntax. For example, if you wanted to surround a word with
@@ -1686,7 +1728,11 @@ back.</p>
 </li>
 <li><p>test</p>
 </li>
+</ul>
+<ul>
 <li>test</li>
+</ul>
+<ul>
 <li>test</li>
 </ul>
 <p><strong><em>This is strong and em.</em></strong></p>

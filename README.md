@@ -1,10 +1,17 @@
-# assemble-examples-markdown
+# Markdown Boilerplate
 
 > Use Assemble to generate HTML pages from markdown content. Useful for wikis, gh-pages, documentation and blogs or sites with markdown posts.
 
-#### Thank you to [Upstage](https://github.com/upstage) for the theme used in the [live demo](https://github.com/assemble/assemble-examples-markdown/) (the same used on http://assemble.io)!
+#### Thank you to [Upstage](https://github.com/upstage) for the theme used in the [live demo](https://github.com/assemble/boilerplate-markdown/) (the same used on http://assemble.io)!
 
-This is not "documentation" per se, it is just examples. So you will learn by browsing the source code, rendered code, and seeing how it renders in the browser.
+This is not intended to be "documentation" for Assemble, the content used in this project is for example purposes. So you will learn by browsing the source code, rendered code, and seeing how it renders in the browser.
+
+## Related information
+
+* [grunt-init-assemble](https://github.com/assemble/grunt-init-assemble): use [grunt-init](http://gruntjs.com/project-scaffolding) to launch new Assemble projects in seconds.
+* [Assemble's documentation](http://assemble.io): if you want to learn more about Assemble in general, this is a great place to start.
+* [assemble-boilerplate](https://github.com/assemble/assemble-boilerplate): see more examples.
+
 
 ## What you'll see in the examples
 
@@ -64,7 +71,7 @@ Task targets, files and options may be specified according to the grunt [Configu
 
 You should now be able to run `grunt assemble` to build the project.
 
-Visit [Assemble's documentation](http://assemble.io) for more information. 
+Visit [Assemble's documentation](http://assemble.io) for more information.
 
 
 ## Contributing

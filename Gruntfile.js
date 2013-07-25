@@ -15,6 +15,7 @@ module.exports = function(grunt) {
     assemble: {
       options: {
         flatten: true,
+        helpers: 'src/helpers/helper-*.js',
         assets: 'dest/assets',
         layoutdir: 'src/templates/layouts',
         partials: ['src/templates/partials/*.hbs', './*.md']
@@ -49,7 +50,7 @@ module.exports = function(grunt) {
       }
     },
 
-    // Before generating any new files, 
+    // Before generating any new files,
     // remove any previously-created files.
     clean: {
       example: ['dest/*.{html,md}']

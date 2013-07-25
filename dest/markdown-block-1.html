@@ -87,24 +87,24 @@
 <p>This plugin requires Grunt <code>~0.4.1</code>. If you haven&#39;t used <a href="http://gruntjs.com/">Grunt</a> before, be sure to check out the <a href="http://gruntjs.com/getting-started">Getting Started</a> guide, as it explains how to create a <a href="http://gruntjs.com/sample-gruntfile">Gruntfile</a> as well as install and use Grunt plugins. Once you&#39;re familiar with that process, you may install this plugin with this command:</p>
 <pre><code class="lang-shell">npm install assemble --save-dev</code></pre>
 <p>Once the plugin has been installed, it may be enabled inside your [Gruntfile][Getting Started] with this line of JavaScript:</p>
-<pre><code class="lang-js">grunt.loadNpmTasks(&#39;assemble&#39;);</code></pre>
+<pre><code class="lang-js">grunt.loadNpmTasks(<span class="string">'assemble'</span>);</code></pre>
 <h2>The &quot;assemble&quot; task</h2>
 <p>In your project&#39;s Gruntfile, add a section named <code>assemble</code> to the data object passed into <code>grunt.initConfig()</code>.</p>
 <pre><code class="lang-js">grunt.initConfig({
   assemble: {
     options: {
-      // Task-specific options go here.
+      <span class="comment">// Task-specific options go here.</span>
     },
     your_target: {
-      // Target-specific file lists and/or options go here.
+      <span class="comment">// Target-specific file lists and/or options go here.</span>
     }
   }
 });
-grunt.loadNpmTasks(&#39;assemble&#39;);
+grunt.loadNpmTasks(<span class="string">'assemble'</span>);
 
-grunt.registerTask(&#39;default&#39;, [
-  &#39;jshint&#39;,
-  &#39;assemble&#39;
+grunt.registerTask(<span class="string">'default'</span>, [
+  <span class="string">'jshint'</span>,
+  <span class="string">'assemble'</span>
 ]);</code></pre>
 <p>Task targets, files and options may be specified according to the grunt <a href="http://gruntjs.com/configuring-tasks">Configuring tasks</a> guide.</p>
 <p>You should now be able to run <code>grunt assemble</code> to build the project.</p>

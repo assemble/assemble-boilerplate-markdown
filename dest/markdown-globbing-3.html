@@ -140,41 +140,41 @@
 <p>Type: <code>String|Array</code> (optional)
 Default: <code>src/data</code></p>
 <p>Retrieves data from any specified <code>JSON</code> and/or <code>YAML</code> files to populate the templates when rendered. Data gets passed through the <code>data</code> object to the options on the assemble task, and then to the context in your templates. Also useful for specifying [configuration][] data.</p>
-<pre><code class="lang-js">options: { data: &#39;src/data/**/*.{json,yml}&#39; }</code></pre>
+<pre><code class="lang-js">options: { data: <span class="string">'src/data/**/*.{json,yml}'</span> }</code></pre>
 <p>Note that <code>assemble</code> merges the task and target-level data for <code>options.data</code>.</p>
 <h3>[options.layout][options-layout]</h3>
 <p>Type: <code>String</code> (optional)
 Default: <code>undefined</code></p>
 <p>Layouts are optional and may be defined at the task and/or <a href="http://gruntjs.com/configuring-tasks#task-configuration-and-targets">target</a> level. <em>Unlike Jekyll</em>, Assemble requires a file extension since you are not limited to using a single file type.</p>
-<pre><code class="lang-js">options: { layout: &#39;src/layouts/default.hbs&#39; }</code></pre>
+<pre><code class="lang-js">options: { layout: <span class="string">'src/layouts/default.hbs'</span> }</code></pre>
 <h3>[options.assets][options-assets]</h3>
 <p>Type: <code>String</code> (optional)
 Default: <code>undefined</code></p>
 <p>Path to the &quot;assets&quot; or &quot;public&quot; directory that will be used by dest files. Assemble uses path in the <code>assets</code> option to generate a relative path from dest files to the given &quot;assets&quot; directory. The &quot;assets&quot; folder commonly contains the CSS, JavaScripts, images and other similar files for a project. The <code>assets</code> option may be defined at the task or target-level.</p>
-<pre><code class="lang-js">options: { assets: &#39;docs/assets&#39; }</code></pre>
+<pre><code class="lang-js">options: { assets: <span class="string">'docs/assets'</span> }</code></pre>
 <h3>[options.partials][options-partials]</h3>
 <p>Type:  <code>String|Array</code> (optional)
 Default: <code>undefined</code></p>
 <p>Specifies the Handlebars partials files, or paths to the directories of files to be used. </p>
-<pre><code class="lang-js">options: { partials: &#39;src/partials/**/*.hbs&#39; }</code></pre>
+<pre><code class="lang-js">options: { partials: <span class="string">'src/partials/**/*.hbs'</span> }</code></pre>
 <p>Note that <code>assemble</code> merges the task and target-level data for <code>options.partials</code>.</p>
 <h3>[options.ext][options-ext]</h3>
 <p>Type: <code>String</code> (optional)
 Default: <code>.html</code></p>
 <p>Specify the file extension to be used for destination files. For example:</p>
 <pre><code class="lang-js">assemble: {
-  // Build sitemap from JSON and templates
+  <span class="comment">// Build sitemap from JSON and templates</span>
   sitemap: {
-    options: { ext: &#39;.xml&#39;},
+    options: { ext: <span class="string">'.xml'</span>},
     files: {
-      &#39;.&#39;: [&#39;path/to/sitemap.tmpl&#39;]
+      <span class="string">'.'</span>: [<span class="string">'path/to/sitemap.tmpl'</span>]
     }
   },
-  // Build README from YAML and templates
+  <span class="comment">// Build README from YAML and templates</span>
   readme: {
-    options: { ext: &#39;.md&#39; },
+    options: { ext: <span class="string">'.md'</span> },
     files: {
-      &#39;.&#39;: [&#39;path/to/readme.tmpl&#39;]
+      <span class="string">'.'</span>: [<span class="string">'path/to/readme.tmpl'</span>]
     }
   }
 }</code></pre>
@@ -189,7 +189,7 @@ Default: <code>handlebars</code></p>
 Default: 100+ helpers from [helper-lib][] </p>
 <p>Assemble depends on [helper-lib][], an external library which includes more than <strong>100 Handlebars helpers</strong>. So any helpers from that project may be used in your templates. </p>
 <p>If you wish for Assemble to use custom helpers with Handlebars or any specified template engine, just provide the path to the helper or helpers in <code>options.helpers</code> :  </p>
-<pre><code class="lang-js">options: { helpers: &#39;your/custom/helpers&#39; }</code></pre>
+<pre><code class="lang-js">options: { helpers: <span class="string">'your/custom/helpers'</span> }</code></pre>
 <h3>options.removeHbsWhitespace</h3>
 <p>Type: <code>Boolean</code>
 Default: <code>false</code></p>
@@ -215,10 +215,10 @@ default: true</p>
 <p>For example, assuming we have defined a custom option, <code>production</code>:</p>
 <pre><code class="lang-js">assemble: {
   options: {
-    production: false
+    production: <span class="literal">false</span>
   },
   files: {
-    &#39;site/&#39;: [&#39;src/pages/*.hbs&#39;]
+    <span class="string">'site/'</span>: [<span class="string">'src/pages/*.hbs'</span>]
   }
 }</code></pre>
 <p>And we add the <code>production</code> variable to our templates:</p>
@@ -263,29 +263,29 @@ Default: <code>undefined</code></p>
 <p>Given the following task configuration in your project&#39;s Grunfile:</p>
 <pre><code class="lang-js">assemble: {
   options: { 
-    // Set the &quot;default&quot; assets dir at the task-level
-    assets: &#39;docs/assets&#39; 
+    <span class="comment">// Set the "default" assets dir at the task-level</span>
+    assets: <span class="string">'docs/assets'</span> 
   },
   docs: {
     files: {
-      &#39;docs/&#39;: [&#39;src/pages/**/*.hbs&#39;]
+      <span class="string">'docs/'</span>: [<span class="string">'src/pages/**/*.hbs'</span>]
     }
   },
   components: {
     files: {
-      &#39;docs/components/&#39;: [&#39;src/partials/**/*.hbs&#39;]
+      <span class="string">'docs/components/'</span>: [<span class="string">'src/partials/**/*.hbs'</span>]
     }
   },
   main: {
     options: { 
-      // Override the task-level assets dir
-      assets: &#39;dist/assets&#39; 
+      <span class="comment">// Override the task-level assets dir</span>
+      assets: <span class="string">'dist/assets'</span> 
     },
     files: {
-      &#39;dist/&#39;: [&#39;src/pages/**/*.hbs&#39;]
+      <span class="string">'dist/'</span>: [<span class="string">'src/pages/**/*.hbs'</span>]
     }
   }
-  // other stuff
+  <span class="comment">// other stuff</span>
 }</code></pre>
 <p>And given the following templates: </p>
 <pre><code class="lang-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;{{assets}}/css/bootstrap.css&quot;&gt;</code></pre>
@@ -348,8 +348,8 @@ archives:
 <h3>List of associate pages</h3>
 <p>Additionally, any collection item from the <code>collections</code> object can list the [pages][pages] associated with that collection. For example, each &quot;tag&quot; would list the [pages][pages] associated with that tag. </p>
 <pre><code class="lang-javascript">{ 
-  tag: &#39;news&#39;, 
-  pages: [&#39;one.html&#39;, &#39;two.html&#39;, &#39;three.html&#39;] 
+  tag: <span class="string">'news'</span>, 
+  pages: [<span class="string">'one.html'</span>, <span class="string">'two.html'</span>, <span class="string">'three.html'</span>] 
 }</code></pre>
 <h2>Custom collections</h2>
 <h3>options.collections</h3>
@@ -358,7 +358,7 @@ default: <code>null</code></p>
 <p>Custom <code>collections</code> may be defined using the <code>collections</code> option:</p>
 <pre><code class="lang-javascript">assemble: {
   options: {
-    collections: [&#39;archives&#39;, &#39;posts&#39;]
+    collections: [<span class="string">'archives'</span>, <span class="string">'posts'</span>]
   }
 }</code></pre>
 <p>And then in the YAML front matter of a page:</p>
@@ -426,9 +426,9 @@ categories:
 <p><strong>&quot;widget component&quot; example</strong></p>
 <p>Given a data file, such as <code>widget.json</code> or <code>widget.yml</code> :</p>
 <pre><code class="lang-json">{
-  &quot;name&quot;: &quot;This is a square widget&quot;,
-  &quot;modifier&quot;: &quot;widget-square&quot;
-}</code></pre>
+  "<span class="attribute">name</span>": <span class="value"><span class="string">"This is a square widget"</span></span>,
+  "<span class="attribute">modifier</span>": <span class="value"><span class="string">"widget-square"</span>
+}</span></code></pre>
 <p>With the following Handlebars expressions in out template, <code>widget.hbs</code> :</p>
 <pre><code class="lang-html">&lt;div class=&quot;widget {{ widget.modifier }}&quot;&gt;{{ widget.name }}&lt;/div&gt;</code></pre>
 <p>The result after running <code>grunt assemble</code> will be:</p>
@@ -438,10 +438,10 @@ categories:
 <pre><code class="lang-javascript">assemble {
   myProject: {
     options: {
-      data: &#39;package.json&#39;
+      data: <span class="string">'package.json'</span>
     },
     files: {
-      &#39;dest&#39;: [&#39;src/templates/**/*.hbs&#39;]
+      <span class="string">'dest'</span>: [<span class="string">'src/templates/**/*.hbs'</span>]
     }
   }
 }</code></pre>
@@ -455,16 +455,16 @@ categories:
 </ul>
 <p><strong>package.json example #2</strong></p>
 <p>Assuming we add the following code to our Gruntfile</p>
-<pre><code class="lang-javascript">pkg: grunt.file.readJSON(&#39;package.json&#39;),
+<pre><code class="lang-javascript">pkg: grunt.file.readJSON(<span class="string">'package.json'</span>),
 
 assemble {
   myProject: {
     options: {
-      pkg: &#39;&lt;%= pkg %&gt;&#39;,
-      data: &#39;other/data/*.json&#39;
+      pkg: <span class="string">'&lt;%= pkg %&gt;'</span>,
+      data: <span class="string">'other/data/*.json'</span>
     },
     files: {
-      &#39;dest&#39;: [&#39;src/templates/**/*.hbs&#39;]
+      <span class="string">'dest'</span>: [<span class="string">'src/templates/**/*.hbs'</span>]
     }
   }
 }</code></pre>
@@ -489,14 +489,14 @@ assemble {
 <p>If you don&#39;t wish to use Handlebars as your templates engine, you may add your own engine by providing an <code>init</code> function that takes in options from the assemble task/target. You may also override the <code>init</code> function in the task/target options by providing an <code>initializeEngine</code> function that takes the engine and the options:</p>
 <pre><code class="lang-js">assemble: {
   options: {
-    engine: &#39;consolidate&#39;,
-    initializeEngine: function(engine, options) {
+    engine: <span class="string">'consolidate'</span>,
+    initializeEngine: <span class="keyword">function</span>(engine, options) {
       engine.engine.swig.init(options);
     }
   },
   docs: {
     files: {
-      &#39;docs/&#39;: [&#39;src/templates/**/*.tmpl&#39;]
+      <span class="string">'docs/'</span>: [<span class="string">'src/templates/**/*.tmpl'</span>]
     }
   }
 }</code></pre>
@@ -556,10 +556,10 @@ Default: <code>.html</code></p>
 <p>So given this example:</p>
 <pre><code class="lang-js">assemble: {
   options: {
-    engine: &quot;Handlebars&quot; // case insensitive
+    engine: <span class="string">"Handlebars"</span> <span class="comment">// case insensitive</span>
   },
   files: {
-    &#39;dist/&#39;: [&#39;src/pages/*.snickerdoodle&#39;]
+    <span class="string">'dist/'</span>: [<span class="string">'src/pages/*.snickerdoodle'</span>]
   }
 }</code></pre>
 <p>So now that we have defined an engine, Handlebars, Assemble knows to use that engine to process templates with the <code>.snickerdoodle</code> extension. Even better, your templates will also be compiled into delicious Christmas cookies with cinnamon and sugar sprinkled on top. </p>
@@ -578,13 +578,13 @@ Default: <code>.html</code></p>
 <p>Example configuration:</p>
 <pre><code class="lang-js">assemble: {
   options: {
-    data: &#39;src/data/readme.yml&#39;,
-    partials: &#39;src/content/*.hbs&#39;,
-    ext: &#39;&#39; // add the &quot;empty&quot; ext property
+    data: <span class="string">'src/data/readme.yml'</span>,
+    partials: <span class="string">'src/content/*.hbs'</span>,
+    ext: <span class="string">''</span> <span class="comment">// add the "empty" ext property</span>
   },
   readme: {
     files: {
-      &#39;./&#39;: [&#39;src/templates/README.md.hbs&#39;]
+      <span class="string">'./'</span>: [<span class="string">'src/templates/README.md.hbs'</span>]
     }
   }
 }</code></pre>
@@ -599,10 +599,10 @@ Default: <code>.html</code></p>
 </ul>
 <pre><code class="lang-js">assemble: {
   options: {
-    engine: &quot;Handlebars&quot; // case insensitive
+    engine: <span class="string">"Handlebars"</span> <span class="comment">// case insensitive</span>
   },
   files: {
-    &#39;dist/&#39;: [&#39;src/pages/*.md.hbs&#39;]
+    <span class="string">'dist/'</span>: [<span class="string">'src/pages/*.md.hbs'</span>]
   }
 }</code></pre>
 <p>Rendered pages will have the <code>.html</code> extension by default.</p>
@@ -619,17 +619,17 @@ Default: <code>.html</code></p>
 <p>Globbing patterns may be used to specify paths to the helpers to be loaded:</p>
 <pre><code class="lang-js">assemble: {
   options: {
-    helpers: [&#39;./lib/helpers/**/*.js&#39;]
+    helpers: [<span class="string">'./lib/helpers/**/*.js'</span>]
   }
 }</code></pre>
 <h3>Registering custom helpers</h3>
 <p>Helpers can either be an object or a single <code>register</code> function. If <code>register</code> is on the object, then it calls the <code>register</code> function passing in the engine, otherwise each method is registered as a helper. For example, the following will result in 2 helpers being registered:</p>
-<pre><code class="lang-js">module.exports.foo = function(msg) { return msg; };
-module.exports.bar = function(msg) { return msg; };</code></pre>
+<pre><code class="lang-js">module.exports.foo = <span class="keyword">function</span>(msg) { <span class="keyword">return</span> msg; };
+module.exports.bar = <span class="keyword">function</span>(msg) { <span class="keyword">return</span> msg; };</code></pre>
 <p>And this will result in the <code>foo</code> helper getting register directly through Handlebars:</p>
-<pre><code class="lang-js">module.exports.register = function(Handlebars, options) {
-  Handlebars.registerHelper(&#39;foo&#39;, function(msg) {
-    return msg;
+<pre><code class="lang-js">module.exports.register = <span class="keyword">function</span>(Handlebars, options) {
+  Handlebars.registerHelper(<span class="string">'foo'</span>, <span class="keyword">function</span>(msg) {
+    <span class="keyword">return</span> msg;
   });
 };</code></pre>
 <p>The <code>Handlebars.registerHelper</code> method takes the name of the helper and the helper function as arguments. Handlebars.js then takes whatever is returned from the helper function and writes it out to the template, <em>so be sure to always return a string from your custom helpers</em>.</p>
@@ -638,20 +638,20 @@ module.exports.bar = function(msg) { return msg; };</code></pre>
 <p>Given our <code>Gruntfile.js</code> has the following <code>assemble</code> task configuration:</p>
 <pre><code class="lang-js">assemble: {
   options: {
-    version: &#39;0.1.0&#39;, // or we could use &#39;&lt;%= pkg.version %&gt;&#39;
-    helpers: [&#39;lib/helpers/**/*.js&#39;]
+    version: <span class="string">'0.1.0'</span>, <span class="comment">// or we could use '&lt;%= pkg.version %&gt;'</span>
+    helpers: [<span class="string">'lib/helpers/**/*.js'</span>]
   },
   blog: {
     files: {
-      &#39;articles/&#39;: [&#39;src/posts/*.md&#39;]
+      <span class="string">'articles/'</span>: [<span class="string">'src/posts/*.md'</span>]
     }
   }
 }</code></pre>
 <p>And given we have defined a custom helper, <code>opt</code>, which gets properties from the <code>assemble.options</code> object and returns them:</p>
-<pre><code class="lang-js">module.exports.register = register = function(Handlebars, options) {
+<pre><code class="lang-js">module.exports.register = register = <span class="keyword">function</span>(Handlebars, options) {
 
-  Handlebars.registerHelper(&#39;opt&#39;, function(key) {
-    return options[key] || &#39;&#39;;
+  Handlebars.registerHelper(<span class="string">'opt'</span>, <span class="keyword">function</span>(key) {
+    <span class="keyword">return</span> options[key] || <span class="string">''</span>;
   });
 
 };</code></pre>
@@ -804,10 +804,10 @@ layout: blog-default.hbs
 <pre><code class="lang-javascript">assemble {
   docs: {
     options: {
-      partials: [&#39;src/templates/partials/**/*.md&#39;]
+      partials: [<span class="string">'src/templates/partials/**/*.md'</span>]
     },
     files: {
-      &#39;docs/&#39;: [&#39;src/templates/pages/*.md&#39;]
+      <span class="string">'docs/'</span>: [<span class="string">'src/templates/pages/*.md'</span>]
     }
   }
 }</code></pre>
@@ -1021,9 +1021,9 @@ layout: path/to/layout.hbs
 <p>In this example, instead of adding adding the traditional head and footer we&#39;ll add some link references to make sure the same ones are used on every generated page. This makes it easier to maintain links and it also cuts down on potential for broken links:</p>
 <pre><code class="lang-markdown">{{&gt; body }}
 
----
+<span class="horizontal_rule">---</span>
 
-_This page was generated using Grunt and [assemble][repo] on {{ today }}._
+<span class="emphasis">_This page was generated using Grunt and [assemble][repo] on {{ today }}._</span>
 
 [org]: https://github.com/assemble
 [repo]: https://github.com/assemble/assemble
@@ -1091,9 +1091,9 @@ _This page was generated using Grunt and [assemble][repo] on {{ today }}._
 <h3>JSON example</h3>
 <p>Here is an example of what we might put inside of <code>my-template.json</code> to populate our template with data.</p>
 <pre><code class="lang-json">{
-  &quot;title&quot;: &quot;Assemble&quot;,
-  &quot;author&quot;: &quot;Brian Woodward&quot;
-}</code></pre>
+  "<span class="attribute">title</span>": <span class="value"><span class="string">"Assemble"</span></span>,
+  "<span class="attribute">author</span>": <span class="value"><span class="string">"Brian Woodward"</span>
+}</span></code></pre>
 <h3>YAML example</h3>
 <p>Here is the same in YAML format: <code>my-template.yml</code></p>
 <pre><code class="lang-yaml">title: Assemble
@@ -1125,15 +1125,15 @@ author: &lt;%= some.author.variable %&gt;
 <p>Using <code>data.json</code> or <code>data.yml</code> should work, but works a little bit differently than if you put data into a file called <code>myData.json</code>. When the data is in <code>data.json</code>, it&#39;s loaded directly into the root of the context...</p>
 <p><code>data.json</code>:</p>
 <pre><code class="lang-json">{
-  &quot;title&quot;: &quot;My Title&quot;
-}</code></pre>
+  "<span class="attribute">title</span>": <span class="value"><span class="string">"My Title"</span>
+}</span></code></pre>
 <p><code>myTemplate.hbs</code>:</p>
 <pre><code class="lang-handlebars">Data</code></pre>
 <p>When used in <code>myData.json</code>, the data can be accessed through the name of the file...</p>
 <p><code>myData.json</code>:</p>
 <pre><code class="lang-json">{
-  &quot;title&quot;: &quot;My Title&quot;
-}</code></pre>
+  "<span class="attribute">title</span>": <span class="value"><span class="string">"My Title"</span>
+}</span></code></pre>
 <p><code>myTemplate.hbs</code>:</p>
 <pre><code class="lang-handlebars">
 </code></pre>
@@ -1164,8 +1164,8 @@ author: &lt;%= some.author.variable %&gt;
 <h3>Example</h3>
 <p>Given we have a data file <code>alert.json</code> that contains the following properties:</p>
 <pre><code class="lang-json">{
-  &quot;title&quot;: &quot;Heads up!&quot;
-}</code></pre>
+  "<span class="attribute">title</span>": <span class="value"><span class="string">"Heads up!"</span>
+}</span></code></pre>
 <p>In our template <code>alert.hbs</code>, we will now look up the properites of <code>alert.json</code> by using the name of the file, <code>alert</code>, as the current context. So to retrieve the <code>title</code> property, we would do this:</p>
 <pre><code class="lang-handlebars">&lt;h1&gt;{{alert.title}}&lt;/h1&gt;</code></pre>
 <p>Which renders to:</p>
@@ -1188,15 +1188,15 @@ author: &lt;%= some.author.variable %&gt;
 <p>When data is added directly to a file named <code>data.json</code> (or <code>data.yml</code>) it will be loaded <em>directly into the root of the context</em> by Assemble. Note that your templates will need to be namespaced differently than if you put data into a file called <code>myData.json</code>. </p>
 <p>For example, given we have a file named <code>data.json</code> with:</p>
 <pre><code class="lang-json">{
-  &quot;title&quot;: &quot;My Title&quot;
-}</code></pre>
+  "<span class="attribute">title</span>": <span class="value"><span class="string">"My Title"</span>
+}</span></code></pre>
 <p>Inside <code>myTemplate.hbs</code>, we would use:</p>
 <pre><code class="lang-handlebars">{{title}}</code></pre>
 <p>However, using the same example but with a file named <code>myData.json</code>, the data must now be accessed using the name of the file. </p>
 <p>So, given we have <code>myData.json</code> with:</p>
 <pre><code class="lang-json">{
-  &quot;title&quot;: &quot;My Title&quot;
-}</code></pre>
+  "<span class="attribute">title</span>": <span class="value"><span class="string">"My Title"</span>
+}</span></code></pre>
 <p>Out template, <code>myTemplate.hbs</code>, would have:</p>
 <pre><code class="lang-handlebars">{{myData.title}}</code></pre>
 <h2>&quot;this&quot; expression</h2>
@@ -1207,8 +1207,8 @@ author: &lt;%= some.author.variable %&gt;
 &lt;/ul&gt;</code></pre>
 <p>when used with this context, <code>people.json</code>:</p>
 <pre><code class="lang-json">[
-  &quot;Jon Schlinkert&quot;,
-  &quot;Brian Woodward&quot;
+  <span class="string">"Jon Schlinkert"</span>,
+  <span class="string">"Brian Woodward"</span>
 ]</code></pre>
 <p>will result in:</p>
 <pre><code class="lang-html">&lt;ul class=&quot;people-list&quot;&gt;
@@ -1242,9 +1242,9 @@ author: &lt;%= some.author.variable %&gt;
 <h3>JSON example</h3>
 <p>Here is an example of what we might put inside of <code>my-template.json</code> to populate our template with data.</p>
 <pre><code class="lang-json">{
-  &quot;title&quot;: &quot;Assemble&quot;,
-  &quot;author&quot;: &quot;Brian Woodward&quot;
-}</code></pre>
+  "<span class="attribute">title</span>": <span class="value"><span class="string">"Assemble"</span></span>,
+  "<span class="attribute">author</span>": <span class="value"><span class="string">"Brian Woodward"</span>
+}</span></code></pre>
 <h3>YAML example</h3>
 <p>Here is the same in YAML format: <code>my-template.yml</code></p>
 <pre><code class="lang-yaml">title: Assemble
@@ -1324,23 +1324,23 @@ author: &lt;%= some.author.variable %&gt;
   assemble: {
     component: {
       options: {
-        data: &#39;page.json&#39;
+        data: <span class="string">'page.json'</span>
       },
       files: {
-        &#39;index.html&#39;: [&#39;src/pages/*.hbs&#39;]
+        <span class="string">'index.html'</span>: [<span class="string">'src/pages/*.hbs'</span>]
       }
     }
   }
 });</code></pre>
 <p>With <code>page.json</code> containing:</p>
 <pre><code class="lang-json">{
-  &quot;index&quot;: {
-    &quot;title&quot;: &quot;Home&quot;
-  },
-  &quot;about&quot;: {
-    &quot;title&quot;: &quot;About Us&quot;
-  }
-}</code></pre>
+  "<span class="attribute">index</span>": <span class="value">{
+    "<span class="attribute">title</span>": <span class="value"><span class="string">"Home"</span>
+  }</span></span>,
+  "<span class="attribute">about</span>": <span class="value">{
+    "<span class="attribute">title</span>": <span class="value"><span class="string">"About Us"</span>
+  }</span>
+}</span></code></pre>
 <p>And the <a href="">YAML Front-Matter</a> of the page, use underscore templates:</p>
 <pre><code class="lang-yaml">---
 title: &lt;%= page.index.title %&gt;
@@ -1348,7 +1348,7 @@ title: &lt;%= page.index.title %&gt;
 
 YAML front matter</code></pre>
 <p>Alternatively, inside the Grunfile you can use <code>grunt.config.set</code> to define the data to be used for a given variable: </p>
-<pre><code class="lang-js">grunt.config.set(&#39;page.index.title&#39;, &#39;Home&#39;);</code></pre>
+<pre><code class="lang-js">grunt.config.set(<span class="string">'page.index.title'</span>, <span class="string">'Home'</span>);</code></pre>
 <h3>Example usage</h3>
 <pre><code class="lang-html">---
 title: 

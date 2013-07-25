@@ -81,12 +81,18 @@
 <p>In this example we&#39;re doing the same thing as in &quot;three.hbs&quot; but we&#39;re using the &quot;include&quot; helper to pull in content from an external file rather than writing it inline.</p>
 </blockquote>
 <hr>
-<h1>assemble-examples-markdown</h1>
+<h1>Markdown Boilerplate</h1>
 <blockquote>
 <p>Use Assemble to generate HTML pages from markdown content. Useful for wikis, gh-pages, documentation and blogs or sites with markdown posts.</p>
 </blockquote>
-<h4>Thank you to <a href="https://github.com/upstage">Upstage</a> for the theme used in the <a href="https://github.com/assemble/assemble-examples-markdown/">live demo</a> (the same used on <a href="http://assemble.io)!">http://assemble.io)!</a></h4>
-<p>This is not &quot;documentation&quot; per se, it is just examples. So you will learn by browsing the source code, rendered code, and seeing how it renders in the browser.</p>
+<h4>Thank you to <a href="https://github.com/upstage">Upstage</a> for the theme used in the <a href="https://github.com/assemble/boilerplate-markdown/">live demo</a> (the same used on <a href="http://assemble.io)!">http://assemble.io)!</a></h4>
+<p>This is not intended to be &quot;documentation&quot; for Assemble, the content used in this project is for example purposes. So you will learn by browsing the source code, rendered code, and seeing how it renders in the browser.</p>
+<h2>Related information</h2>
+<ul>
+<li><a href="https://github.com/assemble/grunt-init-assemble">grunt-init-assemble</a>: use <a href="http://gruntjs.com/project-scaffolding">grunt-init</a> to launch new Assemble projects in seconds.</li>
+<li><a href="http://assemble.io">Assemble&#39;s documentation</a>: if you want to learn more about Assemble in general, this is a great place to start.</li>
+<li><a href="https://github.com/assemble/assemble-boilerplate">assemble-boilerplate</a>: see more examples.</li>
+</ul>
 <h2>What you&#39;ll see in the examples</h2>
 <ul>
 <li>How to use <a href="https://github.com/isaacs/node-glob">file globbing</a> to include multiple markdown files based on specified patterns.</li>
@@ -107,28 +113,28 @@
 <p>This plugin requires Grunt <code>~0.4.1</code>. If you haven&#39;t used <a href="http://gruntjs.com/">Grunt</a> before, be sure to check out the <a href="http://gruntjs.com/getting-started">Getting Started</a> guide, as it explains how to create a <a href="http://gruntjs.com/sample-gruntfile">Gruntfile</a> as well as install and use Grunt plugins. Once you&#39;re familiar with that process, you may install this plugin with this command:</p>
 <pre><code class="lang-shell">npm install assemble --save-dev</code></pre>
 <p>Once the plugin has been installed, it may be enabled inside your [Gruntfile][Getting Started] with this line of JavaScript:</p>
-<pre><code class="lang-js">grunt.loadNpmTasks(&#39;assemble&#39;);</code></pre>
+<pre><code class="lang-js">grunt.loadNpmTasks(<span class="string">'assemble'</span>);</code></pre>
 <h2>The &quot;assemble&quot; task</h2>
 <p>In your project&#39;s Gruntfile, add a section named <code>assemble</code> to the data object passed into <code>grunt.initConfig()</code>.</p>
 <pre><code class="lang-js">grunt.initConfig({
   assemble: {
     options: {
-      // Task-specific options go here.
+      <span class="comment">// Task-specific options go here.</span>
     },
     your_target: {
-      // Target-specific file lists and/or options go here.
+      <span class="comment">// Target-specific file lists and/or options go here.</span>
     }
   }
 });
-grunt.loadNpmTasks(&#39;assemble&#39;);
+grunt.loadNpmTasks(<span class="string">'assemble'</span>);
 
-grunt.registerTask(&#39;default&#39;, [
-  &#39;jshint&#39;,
-  &#39;assemble&#39;
+grunt.registerTask(<span class="string">'default'</span>, [
+  <span class="string">'jshint'</span>,
+  <span class="string">'assemble'</span>
 ]);</code></pre>
 <p>Task targets, files and options may be specified according to the grunt <a href="http://gruntjs.com/configuring-tasks">Configuring tasks</a> guide.</p>
 <p>You should now be able to run <code>grunt assemble</code> to build the project.</p>
-<p>Visit <a href="http://assemble.io">Assemble&#39;s documentation</a> for more information. </p>
+<p>Visit <a href="http://assemble.io">Assemble&#39;s documentation</a> for more information.</p>
 <h2>Contributing</h2>
 <p>In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][].</p>
 <h2>Release History</h2>
