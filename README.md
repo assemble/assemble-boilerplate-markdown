@@ -2,7 +2,7 @@
 
 > Use Assemble to generate HTML pages from markdown content. Useful for wikis, gh-pages, documentation and blogs or sites with markdown posts.
 
-#### Thank you to [Upstage](https://github.com/upstage) for the theme used in the [live demo](https://github.com/assemble/boilerplate-markdown/) (the same used on http://assemble.io)!
+#### Thank you to [Upstage](https://github.com/upstage) for the theme used in the [live demo](http://assemble.github.io/boilerplate-markdown) (the same used on http://assemble.io)!
 
 This is not intended to be "documentation" for Assemble, the content used in this project is for example purposes. So you will learn by browsing the source code, rendered code, and seeing how it renders in the browser.
 
